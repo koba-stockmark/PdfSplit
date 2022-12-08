@@ -37,12 +37,13 @@ def pdf2text(file):
 
     return text
 
+
 def english_chek(text):
     for item in text:
         if item.isalpha():
             continue
         elif not item.isascii():
-            cld3_languages = cld3.get_frequent_languages(text, num_langs=3,)
+            cld3_languages = cld3.get_frequent_languages(text, num_langs=3, )
             language_list = []
             for l in cld3_languages:
                 language_list.append(l[0])
@@ -50,6 +51,7 @@ def english_chek(text):
                 return True
             return False
     return True
+
 
 def space_cut(text):
     ret = ""
@@ -63,7 +65,8 @@ def space_cut(text):
             continue
         if ch == " " or ch == " ":
             continue
-        if ("A" <= ch <= "~" or "!" <= ch <= "?" or ch == "£") and ret and ("A" <= ret[-1] <= "~" or "!" <= ret[-1] <= "?" or ret[-1] == "£"):
+        if ("A" <= ch <= "~" or "!" <= ch <= "?" or ch == "£") and ret and (
+                "A" <= ret[-1] <= "~" or "!" <= ret[-1] <= "?" or ret[-1] == "£"):
             ret = ret + " " + ch
         else:
             ret = ret + ch
@@ -73,10 +76,9 @@ def space_cut(text):
     return ret
 
 
-def pdf2struct_data(dir):
-    ret = pdf2text("JP1801.pdf")
+def p_report_split(file_name):
+    ret = pdf2text(file_name)
     print(ret)
-    result = {}
     topic_data = {}
     related_topic = []
     SoClink = []
@@ -87,6 +89,7 @@ def pdf2struct_data(dir):
     abstract = ""
     explanation = ""
     caption_english = ""
+    result = {}
     result["document"] = {}
     result["document"]["topic"] = {}
     for org_line in ret.splitlines():
@@ -114,6 +117,8 @@ def pdf2struct_data(dir):
         if line.startswith("Timing"):
             continue
         if "Infrastructure" in line and "Organization" in line:
+            continue
+        if "Creation" in line and "Marketing" in line:
             continue
         if "All rights reserved" in line:
             continue
@@ -143,7 +148,7 @@ def pdf2struct_data(dir):
             for ll in abstract.split("。"):
                 if len(ll) > 2:
                     ab_l = ab_l + ll + "。\n"
-            explanation = ""
+            abstract = ""
             result["document"]["topic"]["abstract"] = ab_l
         if "abstract" not in result["document"]["topic"]:
             abstract = abstract + line
@@ -172,13 +177,168 @@ def pdf2struct_data(dir):
         elif explanation:
             explanation = explanation + line
         if line.startswith("SoC") and SoCtopic:
-            SoClink.append(line)
+            SoClink.append(org_line)
         if line.startswith("P") and Ptopic:
-            link.append(line)
-    return
+            link.append(org_line)
+    result["soc_link"] = SoClink
+    result["partners_link"] = link
+    return result
 
 
+def jsoc_report_split(file_name):
+    ret = pdf2text(file_name)
+    print(ret)
+    topic_data = {}
+    related_topic = []
+    SoClink = []
+    link = []
+    abstract = ""
+    explanation = ""
+    caption = ""
+    captino_connect = False
+    caption_ok = False
+    SoCtopic = False
+    summary_start = False
+    summary = ""
+    last_len = 0
+    result = {}
+    result["document"] = {}
+    result["document"]["topic"] = {}
+    for org_line in ret.splitlines():
+        line = space_cut(org_line)
+        if "date" not in result and line:
+            result["date"] = line
+            continue
+        if "id" not in result and line and line[0] == "S":
+            result["id"] = line
+            continue
+        if "title_english" not in result and line:
+            result["title_english"] = line
+            continue
+        if line.startswith("By"):
+            result["author"] = line
+            continue
+        if "title" not in result and line:
+            result["title"] = line
+            continue
+        if "abstract" not in result["document"]["topic"] and "title" in result and not abstract:
+            if len(line) <= 2:
+                continue
+            abstract = line
+            continue
+        if line.startswith("SoC") and not SoCtopic:
+            if explanation:
+                exp = explanation.strip('\r\n')
+                ex_l = ""
+                for ll in exp.split("。"):
+                    if len(ll) > 2:
+                        ex_l = ex_l + ll + "。\n"
+                topic_data["explanation"] = ex_l
+                related_topic.append(topic_data)
+                result["document"]["topic"]["related_topic"] = related_topic
+                explanation = ""
+            continue
+        if line.startswith("本トピックスに関連する"):
+            SoCtopic = True
+            continue
+        if line.startswith("(cid:") and "abstract" not in result["document"]["topic"]:
+            ab_l = ""
+            for ll in abstract.split("。"):
+                if len(ll) > 2:
+                    ab_l = ab_l + ll + "。\n"
+            abstract = ""
+            result["document"]["topic"]["abstract"] = ab_l
+        if len(line) < 14 and not line.startswith("(cid:"):
+            if len(line) < 2:
+                if not summary_start and not summary:
+                    summary_start = True
+                else:
+                    summary_start = False
+                if not caption:
+                    continue
+            if summary_start:
+                summary = summary + line
+                if not caption:
+                    continue
+        else:
+            summary_start = False
+        if abstract:
+            abstract = abstract + line
+            continue
+        if line.startswith("(cid:"):
+            caption = line
+            if explanation:
+                exp = explanation.strip('\r\n')
+                ex_l = ""
+                for ll in exp.split("。"):
+                    if len(ll) > 2:
+                        ex_l = ex_l + ll + "。\n"
+                topic_data["explanation"] = ex_l
+                related_topic.append(topic_data)
+                topic_data = {}
+                explanation = ""
+            if "cid:122" in line:
+                caption_less = True
+                topic_data["id"] = line.split(")")[0] + ")"
+                topic_data["caption"] = ""
+                caption_ok = False
+                captino_connect = False
+                explanation = line.split(")")[-1]
+                caption = ""
+            continue
+        if caption and len(line) < 2 and "caption" not in topic_data:
+            if captino_connect:
+                caption_ok = True
+                continue
+            if not caption_ok:
+                captino_connect = True
+            continue
+        elif captino_connect and "caption" not in topic_data and not caption_ok:
+            caption = caption + line
+            captino_connect = False
+            caption_ok = True
+            continue
+        elif len(caption) > 1 and "caption" not in topic_data:
+            topic_data["id"] = caption.split(")")[0] + ")"
+            topic_data["caption"] = caption.split(")")[-1]
+            caption = ""
+            caption_ok = False
+            captino_connect = False
+            explanation = explanation + line
+#        elif len(caption) <= 10 and "caption" not in topic_data:
+#            caption = caption + line
+#            captino_connect = False
+#            caption_ok = True
+            continue
+        elif explanation:
+            if len(line) < 14:
+                if len(line) < 2:
+                    if not summary_start and not summary:
+                        summary_start = True
+                    else:
+                        summary_start = False
+                    continue
+                if summary_start:
+                    summary = summary + line
+                    continue
+            else:
+                summary_start = False
+            explanation = explanation + line
+        if line.startswith("SoC") and SoCtopic:
+            SoClink.append(org_line)
+        if line.startswith("P") and SoCtopic:
+            link.append(org_line)
+    result["summary"] = summary
+    result["soc_link"] = SoClink
+    result["partners_link"] = link
+    return result
 
 
+def pdf2struct_data(file_name):
+    if file_name.startswith("JP"):
+        return p_report_split(file_name)
+    elif file_name.startswith("JSoC"):
+        return jsoc_report_split(file_name)
+    return ""
 
-pdf2struct_data("")
+
