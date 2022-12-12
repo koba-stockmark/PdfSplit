@@ -1,0 +1,44 @@
+{
+  "document": {
+    "topic": {
+      "abstract": "炭素排出量削減の圧力は、航空業界においても変化を後押ししており、現在と同じ状態では持続不可能である。\n訓練を積んだパイロットの数の減少など他の長期的な問題も、この業界に変革の圧力をかけている。\n\n今とは根本的に異なる、より持続可能な航空産業を実現する上で、様々な技術が役立つだろう。\n例えば、電動垂直離着陸機、地表効果型主翼航空機、自動操縦はすべて、将来の商業飛行に必須の要素となる可能性がある。\n",
+      "related_topic": [
+        {
+          "id": "SC-2022-06-01-021",
+          "caption_english": "US Airlines Are Facing Pilot Shortages ",
+          "explanation": "米国のプロのパイロットの数は、covid-19のパンデミック中に約4%減少した。\nさらに範囲を広げれば、米国の有資格パイロットの約半数は、過去15年以内に定年退職している。\n"
+        },
+        {
+          "id": "SC-2022-06-01-047",
+          "caption_english": "Enabling Planes to Self-Monitor via Onboard Digital Twins ",
+          "explanation": "Cranfield Universityのエンジニアチームは、デジタルツインの概念（すでにエンジンでは一般的となりつつある）を飛行機全体へと拡大し、conscious aircraft（知覚反応のある航空機）の開発を提案している。\nこのアプローチでは、飛行機の監視システムを統合し、AIを駆使して結果を分析することにより、完全な飛行機のデジタルツインを開発する必要がある。\nCranfield Universityのチームは、2024年までに航空機一機まるごとをデジタルツインで運用し、2035年までにある程度の自己認識力を備えたプロトタイプを飛行させることを目指している。\n"
+        },
+        {
+          "id": "SC-2022-06-01-055",
+          "caption_english": "Hawaiian Airlines Invests in Wing-in-Ground-Effect-Aircraft Company ",
+          "explanation": "Hawaiian Airlinesは、地面効果翼機を使用し、海面からわずか数メートル上を飛行する電気水上飛行機を開発しているEGENT（Regional Electric Ground Effect Nautical Transport）クラフトに投資した。\nこうした低空飛行はかなりの高効率を実現するため、この飛行機はリチウムイオン電池の電力を使用して乗客12人を最大160海里運ぶことができる。\nこの飛行機は、ハワイ諸島間で低炭素化輸送を提供するのに理想的かもしれない。\n"
+        },
+        {
+          "id": "SC-2022-06-01-096",
+          "caption_english": "US Aviation Authority Changes Its Approach to Regulating eVTOL Aircraft ",
+          "explanation": "米国連邦航空局（FAA）は、電動垂直離着陸機（eVTOL）を取り締まる規制制度を大幅に変更し、eVTOL航空機業界の利害関係者を驚かせているようだ。この新たな規制は、FAAが規制面で産業界プレーヤーと連携する意欲が後退し、eVTOL航空機業界に不確実性がもたらされる兆候かもしれない。\n"
+        }
+      ]
+    }
+  },
+  "date": "2022年7月",
+  "id": "P1808 ",
+  "title_english": "Aviation: Ripe for Disruption ",
+  "title": "航空業界:まさに変革のとき",
+  "author": "By Guy Garrud（Send us feedback）",
+  "soc_link": [
+    "SoC1301  気候政策の転換 ",
+    "SoC1281  人材不足 ",
+    "SoC1274  航空機の自動化 "
+  ],
+  "partners_link": [
+    "P1766  化石燃料の難問 ",
+    "P1689  気候適応という難題 ",
+    "P1644  都市型エアモビリティ "
+  ]
+}

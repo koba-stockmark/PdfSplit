@@ -1,0 +1,38 @@
+{
+  "document": {
+    "topic": {
+      "abstract": "様々な分野における科学の進歩は、病気を予防し、治療を提供し、組織を修復・再生するための斬新な方法を提供している。\n例えば、従来の外科的縫合を行う代わりに、はんだ付けのようにタンパク質を接合するといった革新的な技術が、いつの日か旧来の技術に取って代わる可能性がある。\n\nエンジニアはこのほど、変形性関節症の治療に有望な現象として、生分解性圧電材料が軟骨の再成長を促進することを実証した。\nそして、新規タンパク質から成る分子ナノマシンは、細胞の修復や動脈の閉塞除去などのに使われる日が来るかもしれない。\n",
+      "related_topic": [
+        {
+          "id": "SC-2022-06-01-001",
+          "caption_english": "Soldering Instead of Stitching to Close Wounds ",
+          "explanation": "研究者は、接着剤や縫合に依存せずに傷を塞ぐ新たな方法として、“はんだ付け”のような方法を模索している。\n"
+        },
+        {
+          "id": "SC-2022-06-01-023",
+          "caption_english": "Piezoelectric Scaffolds for Cartilage Generation ",
+          "explanation": "変形性関節症は、世界で何百万人ものが苦しんでいる疾病だ。\nこれまでの解決策は、治療ではなく、その症状を管理することに焦点を当てたものだった。\n圧電材料を用いて軟骨の成長を促進させる最近の研究は、初めてこの疾患の大規模な治療につながる可能性をもたらした。\n"
+        },
+        {
+          "id": "SC-2022-06-01-026",
+          "caption_english": "Protein Axles and Rotors Could Drive Molecular Machines ",
+          "explanation": "研究者は、分子エンジンで使用するために小さな機械部品に自己集合するタンパク質を設計した。\n"
+        }
+      ]
+    }
+  },
+  "id": "P1810 ",
+  "title_english": "Repairing the Body ",
+  "title": "身体の修繕",
+  "date": "2022年7月",
+  "author": "By Madeeha Uppal（Send us feedback）",
+  "soc_link": [
+    "SoC1297  再生医療の未来 ",
+    "SoC1230  mRNAが引き起こしたヘルスケア・イノ・・・  P1548  バイオテクノロジーの進化 ",
+    "SoC1117  医療ロボット "
+  ],
+  "partners_link": [
+    "P1659  各治療の様々な利用可能性 ",
+    "P1173  患者に張るパッチ "
+  ]
+}

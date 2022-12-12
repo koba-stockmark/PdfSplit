@@ -1,0 +1,44 @@
+{
+  "document": {
+    "topic": {
+      "abstract": "発生源の増加と多様化が、粒子状物質（PM）の排出を引き起こしている。\nこうした発生源のいくつかは、研究者が突き止めるまでの長い年月の間にも、粒子状物質を放出していた可能性がある。\nこれらの現象について研究者が理解を深めるにつれて、粒子状物質を放出する製品や、分解して粒子状物質となる製品は、規制および市場における大きな課題となるだろう。\n\nほとんどの大気浮遊粒子は、気候変動の原因となる事象と密接に関連している。\nAI強化型気象モデルなどのツールがあれば、政府や組織は、粒子状物質の放出によって生命とインフラに長期的悪影響を与える可能性のある気候関連事象に備えることが可能になるかもしれない。\n",
+      "related_topic": [
+        {
+          "id": "SC-2022-07-06-009",
+          "caption_english": "Tests Reveal That Car Tires Produce More Particle Pollution than Car Exhausts Do ",
+          "explanation": "排ガス量を測定・解析するエミッションズ・アナリティクス社がテストを実施したところ、「タイヤの摩耗で発生する粒子状汚染物質は、最近の車が排気ガスで出すより2,000倍も多い」ことが明らかとなった。\nこの現象は、自動車の重量化と車のテールパイプの清浄度の改善によって生じた。\n"
+        },
+        {
+          "id": "SC-2022-07-06-030",
+          "caption_english": "Utah Faces Serious Threats as the Great Salt Lake Dries Up ",
+          "explanation": "ユタ州のグレートソルト湖は、気候変動と急速な人口増加が原因で、すでに2/3が干上がっている。\nじきに、多くの悪影響が現れるだろう。\nその影響の一つとして、湖底からの有毒ダストが放出され、近くのソルトレーク・シティー一帯で大気汚染を引き起こす可能性がある。\n"
+        },
+        {
+          "id": "SC-2022-07-06-036",
+          "caption_english": "Updated EC Recommendation on the Definition of Nanomaterials ",
+          "explanation": "2013年から2021年に長い年月をかけて実施された審査手続きを経て、欧州委員会はついにナノ材料の2011年の定義を更新する勧告を発表した。\n"
+        },
+        {
+          "id": "SC-2022-07-06-046",
+          "caption_english": "Ambitious Weather-Intelligence Start-Up Raises Funding and Makes Bold Claims ",
+          "explanation": "スタートアップのSalient Predictions社は、自社の気象予報の手法を用いれば、ライバル企業や政府の約2倍の精度で予測できると言う。同社は2週間から52週間先までを予測する。\n"
+        }
+      ]
+    }
+  },
+  "id": "P1813 ",
+  "title_english": "Particles Matter ",
+  "title": "粒子状物質",
+  "date": "2022年8月",
+  "author": "By Ivona Bradley（Send us feedback）",
+  "soc_link": [
+    "SoC1282  空気品質モニタリングへの需要 ",
+    "SoC858  汚染計測の第一歩 ",
+    "SoC734  気象を調整し、気候を変える "
+  ],
+  "partners_link": [
+    "P1660  気候の全体像を把握する ",
+    "P1410  プラスチックの痛み ",
+    "P1316  民間企業の大気汚染対策 "
+  ]
+}

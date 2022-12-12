@@ -1,0 +1,39 @@
+{
+  "document": {
+    "topic": {
+      "abstract": "抗生物質の代替品は、抗生物質耐性という顕著に悪化の一途をたどっている世界的問題に対処するのに役立つだろう。\n新規抗生物質は薬剤耐性菌による感染に対抗する効果を発揮するが、抗生物質の代替品は、そもそも感染拡大を抑制するか、抗生物質耐性が生じない方法で細菌を破壊すると考えられる。\n\n継続的な研究は、細菌について、そしてそれらがどのように機能し、コミュニケーションをとり、複製するかについて、科学者がさらに多くの知見を蓄積する一助となるだろう。\nこのような研究が、いつの日か、抗生物質の革新的な代替品の発見につながる可能性がある。\n",
+      "related_topic": [
+        {
+          "id": "SC-2022-07-06-008",
+          "caption_english": "Antimicrobial Peptide for Drug-Resistant Infection ",
+          "explanation": "抗生物質耐性の高まりにより、医学界では感染症に対抗する独自の方法が必要となっている。\n研究者らは、メチシリン耐性黄色ブドウ球菌（S. aureus）の情報伝達を阻害する抗菌ペプチドを加えることで、ツールキットを拡張した。\n研究者らがマウスを黄色ブドウ球菌に曝露する実験を行ったところ、マウスが感染するのをペプチドが防いだ。\nこのペプチドは、世界の医療産業において潜在的用途が期待される。\n"
+        },
+        {
+          "id": "SC-2022-07-06-035",
+          "caption_english": "Antibiotics Can Disrupt the Gut Microbiome and Lead to Fungal Infections ",
+          "explanation": "University of Birmingham、US National Institutes of Health とその他研究機関のチームは、抗生物質、特にバンコマイシンが真菌感染に対する腸の特異的感受性を引き起こし、共生細菌の全身への漏れを引き起こすことを証明した。\nこれらの欠陥は、局所的なマイクロバイオームの変化に関連して腸内リンパ系IL-17AおよびGM-CSF応答が減少した位置で発生する。\n"
+        },
+        {
+          "id": "SC-2022-07-06-073",
+          "caption_english": "Preventing Lethal Infections without Antibiotics ",
+          "explanation": "University of California, Los Angelesの研究者は、カテーテルやステントなどの医療器具に細菌が付着するのを防ぐ新たな表面処理法を開発した。しかし、病院内ではすでに抗菌治療が行われている。この新しい表面処理には、臨床での利用を促進するための投資を正当化できるほど十分な費用対効果があるのだろうか? \n"
+        }
+      ]
+    }
+  },
+  "date": "2022年8月",
+  "id": "P1815 ",
+  "title_english": "Addressing Antibiotic Resistance ",
+  "title": "抗生物質耐性への対処",
+  "author": "By Madeeha Uppal（Send us feedback）",
+  "soc_link": [
+    "SoC1080  抗生物質耐性と闘う ",
+    "SoC920  伝染病を止めろ！ ",
+    "SoC806  ドラッグ・デリバリーの開発成果 "
+  ],
+  "partners_link": [
+    "P1619  抗菌薬のダイナミクス ",
+    "P1552  健康を目指すイノベーション・パートナーシップ ",
+    "P1451  抗生物質の進歩 "
+  ]
+}

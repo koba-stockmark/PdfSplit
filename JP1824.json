@@ -1,0 +1,44 @@
+{
+  "document": {
+    "topic": {
+      "abstract": "規制当局が人工知能の利用拡大を食い止めようとする対策に苦労するなか、エンドユーザーは、AIがもたらす物理的・社会的リスクなどたいてい意に介さず、AIを貪欲に受け入れている。\n例えば、偏見や広く知れ渡ったリスクがあるにも関わらず、人のデジタル顔写真から特定の人物だと識別できる新規AIシステムは、警察やジャーナリストおよびその他のグループに人気を博している。\n\n自動運転技術は、危険で予測不可能に故障する傾向があるにも関わらず、広く普及していることが証明されている。\n同様に、企業は、汎用人工知能（AGI）がもたらし得るリスクを認識しているにも関わらず、AGIを可能な限り早急に構築するための非常に野心的な取り組みを進めている。\nAIに対する無鉄砲な要求は増え続けると予想される。\n",
+      "related_topic": [
+        {
+          "id": "SC-2022-07-06-048",
+          "caption_english": "A Face Search Engine Anyone Can Use Is Alarmingly Accurate ",
+          "explanation": "PimEyesというウェブサイトは、月額29.99ドルで、SFの世界の危険な超能力を提供している。\nこのサービスの持つ顔を検索する能力は、インターネットの広大なデジタル干し草の中の針と同じくらい安全だったはずの曖昧な写真を見つけることができるのだ。\n"
+        },
+        {
+          "id": "SC-2022-07-06-024",
+          "caption_english": "Meet the Reclusive Software Billionaire Attacking Elon Musk ",
+          "explanation": "カリフォルニア州の億万長者ダン・オダウド氏は、テスラの自動運転ソフトウェアを攻撃している問題について、米国上院に対して自己資金でキャンペーンを実施した。\nオダウド氏のキャンペーンのスローガンは「コンピュータを人類にとって安全なものにする」であった。\n"
+        },
+        {
+          "id": "SC-2022-07-06-021",
+          "caption_english": "Hype around DeepMind’s New AI Model ",
+          "explanation": "DeepMind Technologies社のある研究員は、「汎用人工知能（AGI）の開発の追求は同社の新規ソフトウェアGatoで終了し、AGIの達成は今やシステムのスケールアップの問題だ」と主張する。\nこの主張、すなわち「Gatoは今後、AIシステムに有用なマルチタスク能力の追加は行うが、人間のように機能するAGIの概念の実現に向けたことはほとんど行わない」というのは、あまりに厚かましい主張だ。\n"
+        },
+        {
+          "id": "SC-2022-07-06-095",
+          "caption_english": "Reports Feature Data about Accidents with ADAS-Equipped and Autonomous Vehicles ",
+          "explanation": "米国運輸省道路交通安全局（NHTSA）が最近出した2件の報告によると、先進運転支援システム（ADAS）搭載の完全自動運転車が関係する衝突・死亡事故件数が史上最高を記録したという。NHTSAは、AV関連技術の開発の透明性を引き上げ、「これからも安全性がすべての新規自動車技術の開発の羅針盤であり続ける」と、警鐘を鳴らそうとしている。\n"
+        }
+      ]
+    }
+  },
+  "date": "2022年8月",
+  "id": "P1824 ",
+  "title_english": "Reckless Demand for AI ",
+  "title": "AIに対する無鉄砲な要求",
+  "author": "By Katerie Whitman（Send us feedback）",
+  "soc_link": [
+    "SoC1294  変化する AI 規制 ",
+    "SoC1290  AI の脆弱性 ",
+    "SoC1249  AI 革新にあわせた規模拡張 "
+  ],
+  "partners_link": [
+    "P1726  AI の覇権争い ",
+    "P1720  顔認識の取り締まり ",
+    "P1680  クリエイティブな AI の台頭 "
+  ]
+}

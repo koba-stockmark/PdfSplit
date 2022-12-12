@@ -1,0 +1,43 @@
+{
+  "document": {
+    "topic": {
+      "abstract": "個人のデジタルツインは、ますます現実味を帯びてきている。\nパーソナル・デジタルツイン（容姿、医療データ、場合によっては声や癖など、人のさまざまな特徴を取り込んだ洗練されたデジタルモデル）は、リアルタイムの医療データの取得、高齢者の介護、所有者に代わっての管理業務などに役立てることが可能である。\n\nパーソナル・デジタルツインの実用化を支える技術開発として、メタバース用アバターの改良、健康センサーやウェアラブルセンサーの採用、人間らしい対話型AIの進歩などが挙げられる。\n個別のデジタルツインは、プライバシーの目的でデータを分離して保護することができる。\nしかし、開発過程によっては、パーソナル・デジタルツインを個人ではなく雇用主やハイテク企業が所有することになる可能性がある。\n",
+      "related_topic": [
+        {
+          "id": "SC-2022-07-06-032",
+          "caption_english": "Thinking Human Digital Twins May Exist within the Decade ",
+          "explanation": "テクノロジーアナリストのRob Enderle氏は、人々はこの10年が終わりまでに、初めて人間のデジタルツインについて繰り返し考えるようになるだろうと主張する。\nEnderle氏によると、このようなデジタルツインの実用化には、自身の思考のレプリカが雇用主にとって極めて有益となり得るため、膨大な熟考と倫理的配慮が必要になるという。\n例えば、雇用主は、人間を雇うよりも、無給のデジタルツインを雇いたがるかもしれない。\n"
+        },
+        {
+          "id": "SC-2022-07-06-050",
+          "caption_english": "New Company Aims to Personalize Medicine via Use of Virtual Twins ",
+          "explanation": "University of PittsburghがスピンアウトしたBioSystics社は、患者のデジタルツインを開発する元となる複雑なデータを管理・モデリングすることにより、研究機関および大手製薬会社のクライアントに役立つデータベースを8ヶ月さかのぼって揃え、分析する企業である。\n同社は、医薬品を個人にマッチングさせることを目指す。\n"
+        },
+        {
+          "id": "SC-2022-07-06-072",
+          "caption_english": "Demonstration: Amazon.com’s ",
+          "explanation": "Alexa Mimics a Person’s Voice Amazon.comは2022年6月開催のelectronics conference で、Alexa音声アシスタントで特定の人間の声を再現できる機能を披露した。\nAmazonの担当者は、同社がまだ開発中のこの機能は、親族が亡くなった後でもその親族の声を模倣して故人を偲ぶ手助けができると提案した。\n"
+        },
+        {
+          "id": "SC-2022-07-06-069",
+          "caption_english": "VR-Headset Prototypes from Meta ",
+          "explanation": "Meta Platforms社のMark Zuckerberg CEOは先ごろ、VRを現実と区別できなくする」のに必要だとMetaが主張する4つの先進VR機能をそれぞれ1つずつ備えたプロトタイプの仮想現実（VR-）ヘッドセット4タイプの動作を実証した。Metaは最終的に、これら4つの機能をすべて実装した低価格で単一価格のVRヘッドセットを販売したいと考えている。\n"
+        }
+      ]
+    }
+  },
+  "date": "2022年8月",
+  "id": "P1821 ",
+  "title_english": "My Digital Twin ",
+  "title": "自分自身のデジタルツイン",
+  "author": "By Rob Edmonds（Send us feedback）",
+  "soc_link": [
+    "SoC1310  人間と機械の融合 ",
+    "SoC1192  データキャプチャーの自動化 ",
+    "SoC938  広がるヒューマンオーグメンテーションの・・・ P1542  建物と都市のデジタルツイン "
+  ],
+  "partners_link": [
+    "P1796  画期的なメタバース・ユーザー・インターフェイス ",
+    "P1764  人工人格 "
+  ]
+}

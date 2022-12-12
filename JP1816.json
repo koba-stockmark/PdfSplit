@@ -1,0 +1,44 @@
+{
+  "document": {
+    "topic": {
+      "abstract": "金融や公共サービスにおいて重要な役割を果たしている大規模で強力な企業と機関は、世論と信用を向上させるために、規制を一層改善する必要があるかもしれない。\nグリーン投資企業、ヘルスケア企業、警察、報道機関が透明性を引き上げれば、それによって社会に恩恵がもたらされるだろう。\n\n人々の意見に影響を与え、環境や社会に変化をもたらす力のある一部の組織にとっては、事業収益が倫理的価値に優先する可能性がある。\n規制改革、罰金の導入、非営利の監視機関は、組織をチェックし、国民に十分な情報を提供する一助となり得る。\n",
+      "related_topic": [
+        {
+          "id": "SC-2022-07-06-003",
+          "caption_english": "Pilot Program: Citizens Review Police Performance ",
+          "explanation": "バージニア州の小さな町は、住民が町内の警察署の任務遂行を評価することのできる新たな実験プログラムを導入した。\n職務上のやり取りを行った後、警官はQRコードを提示し、地元住民がそのやり取りに対してコメントできるようにする。\n"
+        },
+        {
+          "id": "SC-2022-07-06-013",
+          "caption_english": "A Reckoning for ESG Investing ",
+          "explanation": "ESG（環境、社会、ガバナンス）は資産運用業界で最も急速に成長している分野だが、ESGという言葉はますます幅広くなり、環境に配慮しているふりをしたグリーンウォッシュ疑惑にもつながっている。\nこのような疑惑を受け、ドイツの警察は資産運用会社DWSグループとDeutsche Bank（DWSグループの過半数の株式所有者）の事務所を強制捜索した。\nこの出来事は、「資産運用会社がESG調査で強制捜索された初の事案であり、業界にとって審判の時を告げるものとなっている。\n"
+        },
+        {
+          "id": "SC-2022-07-06-085",
+          "caption_english": "Watchdog Group Launches Campaign against Fox News ",
+          "explanation": "広告に重点を置いた監視団体Check My Ads Instituteが2022年6月上旬、Fox Newsに対するキャンペーンを開始した。\nCheck My Ads Instituteよると、Fox Newsはニュースチャンネルとウェブサイトを通じて「時間外労働をしてまで次の騒動を煽ろうとしている」という。\nこのキャンペーンは、Fox Newsのウェブサイトから広告収入を奪うことを目的としている。\n"
+        },
+        {
+          "id": "SC-2022-07-06-007",
+          "caption_english": "Combination of World Calamities May Decrease Drug Prices ",
+          "explanation": "COVID-19パンデミック、地球温暖化、「景気後退、政治的不安定、サプライチェーンの混乱、ウクライナでの戦争」などの要因が組み合わさった結果、薬価が下落する可能性がある。\n"
+        }
+      ]
+    }
+  },
+  "date": "2022年8月",
+  "id": "P1816 ",
+  "title_english": "Policing Large Institutions ",
+  "title": "大規模組織の取り締まり",
+  "author": "By Madeeha Uppal（Send us feedback）",
+  "soc_link": [
+    "SoC1299  サステナブルな金融と保険 ",
+    "SoC1229  ビッグテックのガバナンス問題 ",
+    "SoC1103  フェイクニュースの力学 "
+  ],
+  "partners_link": [
+    "P1792  国家権力 vs 億万長者 ",
+    "P1758  社会的機関への信頼の低下 ",
+    "P1742  新たな金融フロンティアの規制 "
+  ]
+}

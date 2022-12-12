@@ -1,0 +1,39 @@
+{
+  "document": {
+    "topic": {
+      "abstract": "企業は、人工妊娠中絶、人種、環境などの社会問題に対して態度を明確にすることを従業員や顧客側からますます期待される昨今、自社の評判を管理する上での課題に直面している。\n政治的・社会的立場を明確にすることはリスクを伴う（例えば、Walt Disney Companyは中絶に対する見解を明確にしたことでフロリダ州政府から反感を買った）が、無言を貫くことはまた批判の的となる。\n\n企業の評判管理やその時々の問題に対して態度を明確にせよとの圧力自体は今に始まったことではないが、デジタルニュースサイクル、ソーシャルメディア、アイデンティティ政治、Z世代の台頭などが相まって、企業が対処しなければならない価値基準の問題の発生頻度と激しさを高めている。\n現在、そうした課題が今後さらに激化する兆候がみられる。\n",
+      "related_topic": [
+        {
+          "id": "SC-2022-06-01-079",
+          "caption_english": "Surveying Black US Residents Two Years after George Floyd’s Murder ",
+          "explanation": "Forbes主催の調査で、米国の黒人住民に、変化を推し進めるために信頼できる機関はどこかという質問があった。\n彼らは非営利団体、中小企業、そして政府を挙げたが、大企業は最下位だった。\nその理由のひとつは、期待値が非常に高かったからだ。\nそれにも関わらず、実際の変化は約束よりもずっとゆっくりだった。\n"
+        },
+        {
+          "id": "SC-2022-06-01-015",
+          "caption_english": "Companies Now Face the Abortion Test ",
+          "explanation": "米連邦最高裁判所はこのほど、「ロー対ウェイド判決」を覆し、人工妊娠中絶を禁止する裁量権を各州に認めた。\nこうした動きによって、これまで多くが避けてきた政治的に不安定な決断を、企業は今後、下さざるを得なくなるだろう。\n"
+        },
+        {
+          "id": "SC-2022-06-01-029",
+          "caption_english": "Lego Foundation Supports International Parenting Initiative with £11 Million Grant ",
+          "explanation": "LEGO Foundationは、エビデンスに基づいた遊び心のある無料の子育て支援を開発し、それを世界中の親に提供することを目標に、英国のUniversity of Oxfordが率いる国際的研究に5 年間で1,100万ポンドの助成金を授与する。\n"
+        }
+      ]
+    }
+  },
+  "id": "P1801 ",
+  "title_english": "Social Companies ",
+  "title": "社会的企業",
+  "date": "2022年7月",
+  "author": "By Rob Edmonds（Send us feedback）",
+  "soc_link": [
+    "SoC1258  社会的結束の問題 ",
+    "SoC1246  ESG戦略から恩恵を受けるのは誰? ",
+    "SoC1023  ビジネスにおける社会的責任 "
+  ],
+  "partners_link": [
+    "P1754  ポストパンデミックの企業文化 ",
+    "P1633  社会的責任に向けて ",
+    "P1483  株主利益に優先する他の利害関係者の目的 "
+  ]
+}

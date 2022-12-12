@@ -1,0 +1,44 @@
+{
+  "document": {
+    "topic": {
+      "abstract": "様々な新しい取り組みと研究プロジェクトでは、都市環境を利用して公共の安全性を高めようと模索している。\n例えば、街路照明を戦略的に使用し、公共スペースのベンチや歩道、その他の機能を変更または撤去することで、犯罪や反社会的行動を減らせるかもしれない。\n\n都市環境は複雑なシステムで、一部の指標を改善することが他に悪影響を及ぼす可能性がある。\n例えば、公園のベンチを撤去すると、特定の反社会的行動は減少するかもしれないが、人々が座る場所もなくなってしまう。\n都市環境が進化し続ける中で、AIによるモデリングは、都市設計におけるこうしたトレードオフを最適化するのに役立つかもしれない。\n",
+      "related_topic": [
+        {
+          "id": "SC-2022-06-01-005",
+          "caption_english": "Using Environmental Design to Reduce Crime ",
+          "explanation": "犯罪学の学術誌Journal of Quantitative Criminologyの記事に、ニューヨーク州ニューヨーク市における街路照明の実験と、戦略的街路照明で犯罪を減らせることが書かれている。\n"
+        },
+        {
+          "id": "SC-2022-06-01-024",
+          "caption_english": "Secured by Design: UK Police Alter Public Spaces ",
+          "explanation": "英国の警察は、1980年代に開始されたSecured by Design initiativeを通じて、犯罪発生率（と思われるもの）を減少させるために、公園のベンチを撤去したり、歩道を塞いだり、ゲートを設置するなどして公共空間を改造することが出来る。\n"
+        },
+        {
+          "id": "SC-2022-06-01-002",
+          "caption_english": "The United Kingdom Has a Love-Hate Relationship with E-Scooters ",
+          "explanation": "英国では、私有地以外でeスクーター（電動キックボード）を乗ることが法律で禁じられているにも関わらず、eスクーターは大人気だ。\n2018年以来、推定100万台のeスクーターが同国に輸入され、推定75万台が実際に使用されている。\neスクーターの支持者は、この車両は他の輸送モードでは満たすことのできないニーズを満たし、場合によっては自動車の代わりにさえなるかもしれないと言う。\n"
+        },
+        {
+          "id": "SC-2022-06-01-030",
+          "caption_english": "China Gives Autonomous-Vehicle-Tech Company a Taxi License ",
+          "explanation": "Pony.aiは、中国で自律型タクシーサービスの営業認可を取得し、同国で認可を受けた最初の企業となった。\n"
+        }
+      ]
+    }
+  },
+  "date": "2022年7月",
+  "id": "P1806 ",
+  "title_english": "Urban Design and Safety ",
+  "title": "都市設計と安全性",
+  "author": "By Rob Edmonds（Send us feedback）",
+  "soc_link": [
+    "SoC1190  新しい都市とコンセプト ",
+    "SoC1188  都市交通の変曲点 ",
+    "SoC1116  都市データの収集と分析 "
+  ],
+  "partners_link": [
+    "P1643  スマートシティの命運 ",
+    "P1564  ユビキタスな監視技術 ",
+    "P1133  インターネットに接続された警備 "
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "document": {
+    "topic": {
+      "abstract": "老化を遅らせて若返り効果を図ることへの関心が高まるにつれて、科学者らは老化プロセスに関連し、アンチエイジング技術につながる新たなメカニズムを発見している。\n炎症、マイクロバイオーム、血球成分、化学的特性などの身体現象は、老化に関連している可能性がある。\n\n研究者はアンチエイジング薬が市販される前に研究開発の段階での重要課題を克服しなければならないが、老化を遅らせることをうたっている食品やサプリメントは、高収益のビジネスになるかもしれない。\nさらに、アンチエイジング技術の出現は、その技術の利用に関する倫理的問題と、人口や労働力の高齢化に関する社会的・経済的懸念をもたらす。\n",
+      "related_topic": [
+        {
+          "id": "SC-2022-07-06-025",
+          "caption_english": "New Research May Explain Why People Sometimes Become Frail Suddenly in Their 70s ",
+          "explanation": "Wellcome‑MRC Cambridge Stem Cell Institute、Wellcome Sanger Institute、およびその他機関の科学者らは、人が70 代に達したときに起こる血球成分の「破壊的」変化を発見した。\nこの変化は血球の生産において、時間の経過とともに異常な幹細胞が徐々に優位になるために起こる。\nこの発見は、老齢期の衰えと病気に対する新しい治療法の見通しを高めてくれる。\n"
+        },
+        {
+          "id": "SC-2022-07-06-002",
+          "caption_english": "Reversing the Hallmarks of Aging via Fecal Transplants ",
+          "explanation": "Quadram InstituteとUniversity of East Angliaの科学者は、マウスの研究において、若いマウスの糞便中の微生物叢を老いたマウスに移植することで、腸、目、脳の老化の特徴を回復させることができるという証拠を示した。\n同研究による知見は、この種の多くの研究に基づく知見と同じく、売れ筋の食品や飲料品およびライフスタイル製品に利用できると期待されるが、必ずしも医療につながるわけではない。\n"
+        },
+        {
+          "id": "SC-2022-07-06-034",
+          "caption_english": "Saudi Arabia Plans to Fund Antiaging-Treatment Research with $1 Billion Annually ",
+          "explanation": "サウジアラビアの王室は、同国の人口が急速に高齢化していることを懸念し、人々の健康寿命を延ばすことができるアンチエイジング薬を特定する研究に多額の予算を投じる予定である。\n糖尿病薬メトホルミンに関する研究が、この助成金を受ける最初の研究となるかもしれない。\n"
+        },
+        {
+          "id": "SC-2022-07-06-047",
+          "caption_english": "Compound in Sea Squirts Reverses Signs of Aging in Mice ",
+          "explanation": "Shanghai Jiao Tong Universityとその他の機関の研究者による最近の研究で、ホヤに中年マウスの老化の兆候を回復させると思われる化合物が含まれていることが明らかになった。この化合物が人間にも同じ効果があるかは不明である。\n"
+        }
+      ]
+    }
+  },
+  "date": "2022年8月",
+  "id": "P1823 ",
+  "title_english": "Living Longer and Better ",
+  "title": "寿命を延ばし、より健康に生きる",
+  "author": "By Madeeha Uppal（Send us feedback）",
+  "soc_link": [
+    "SoC1297  再生医療の未来 ",
+    "SoC1286  アンチエイジング技術 ",
+    "SoC1121  人口動態の変化による市場の変化 "
+  ],
+  "partners_link": [
+    "P1739  合成生物学の大いなる将来性 ",
+    "P1738  再生医療 ",
+    "P1673  人口高齢化という問題 "
+  ]
+}
