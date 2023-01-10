@@ -7,7 +7,8 @@ from pdfminer.pdfinterp import PDFPageInterpreter
 from pdfminer.pdfpage import PDFPage
 from pdfminer.layout import LAParams
 from io import StringIO
-import cld3
+import pycld2
+#import cld3
 import copy
 
 
@@ -43,10 +44,12 @@ def english_chek(text):
         if item.isalpha() and ("腕" <= item or item <= "ぁ"):
             continue
         elif not item.isascii():
-            cld3_languages = cld3.get_frequent_languages(text, num_langs=3, )
+# cld2            cld3_languages = cld3.get_frequent_languages(text, num_langs=3, )
+            isReliable, textBytesFound, cld3_languages = pycld2.detect(text)
             language_list = []
             for l in cld3_languages:
-                language_list.append(l[0])
+# cld2                language_list.append(l[0])
+                language_list.append(l[1])
             if language_list[0] == "en":
                 return True
             return False
